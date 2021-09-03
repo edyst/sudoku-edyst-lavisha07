@@ -1,0 +1,118 @@
+body{
+    font-family: Source Sans Pro,sans-serif;
+    font-size: 25px;
+    margin:0;
+    padding:0px;
+    
+    }
+    .h2
+    {
+        color:dodgerblue;
+        font-family: Source Sans Pro,sans-serif; 
+    }
+    
+    .main-Container{
+        padding:30px;
+        padding-top: 20px;
+    }
+    .flex{
+        display:flex;
+        flex-flow: row wrap;
+        justify-content:center;
+        align-items: stretch;
+    }
+    .flex > div{
+        flex:1;
+    
+    }
+    .easy-btn{
+        text-align:right;
+    }
+    .mid-btn{
+        text-align: center;
+    }
+    .hard-btn{
+        text-align: left;
+    }
+    
+    .main-Container .hard,.easy,.medium{
+        width:150px;
+        height:50px;
+        border:none;
+        font-size:25px;
+    }
+    .table-Container{
+        display:flex;
+        justify-content: center;
+    
+    }
+    .table-Container table{
+        border-collapse: collapse;
+       border:2px solid #344861;
+        table-layout: fixed;
+    }
+    .table-Container .cell{
+        width: 60px;
+        box-sizing: border-box;
+        height:60px;
+       border:none;
+       font-size:25px; 
+       text-align:center;
+       font-family: Source Sans Pro,sans-serif;
+    }
+    .table-Container td{
+        padding:0;
+        border:1px solid #bec6d4;
+    
+    }
+    .table-Container tr{
+        padding:0;
+    }
+    .table-Container .thick{
+        border-bottom:2px solid #344861;
+    }
+    .table-Container .thick-col{
+        border-right:2px solid #344861;
+    }
+    .validation{
+        display:flex;
+        justify-content: center;
+        padding:30px;
+    }
+    .validate{
+        width:200px;
+        height:50px;
+        font-size: 25px;
+        border: none;
+    }
+    
+    .redcell{
+        background-color: aliceblue;
+        color: red;
+        width: 60px;
+        box-sizing: border-box;
+        height:60px;
+       border:none;
+       font-size:25px; 
+       text-align:center;
+       font-family: Source Sans Pro,sans-serif;
+    
+    }
+    .blackcell
+    {
+        background-color: aliceblue;
+        width: 60px;
+        box-sizing: border-box;
+        height:60px;
+       border:none;
+       font-size:25px; 
+       text-align:center;
+       font-family: Source Sans Pro,sans-serif; 
+    }
+    .col:hover{
+        background-color:dodgerblue ;
+    }
+    .col .thick-col:hover{
+        background-color:dodgerblue ;
+    }
+    
